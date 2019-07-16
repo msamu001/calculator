@@ -5,11 +5,12 @@ namespace Calculator
 {
     public class FileParser
     {
-        private Dictionary<string, string> symbolDictionary => new Dictionary<string, string>
+        private Dictionary<string, string> _SymbolDictionary => new Dictionary<string, string>
         {
+            {"divide", "/"},
+            {"multiply", "*"},
             {"add", "+"},
             {"subtract", "-"},
-            {"divide", "/"},
             {"apply", string.Empty}
         };
 
@@ -20,9 +21,9 @@ namespace Calculator
             var symbol = input.Split(" ")[0];
             var number = input.Split(" ")[1];
             
-            if (symbolDictionary.ContainsKey(symbol))
+            if (_SymbolDictionary.ContainsKey(symbol))
             {
-                output += symbolDictionary[symbol];
+                output += _SymbolDictionary[symbol];
                 output += number;
             }
             

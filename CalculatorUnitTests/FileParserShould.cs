@@ -54,5 +54,17 @@ namespace CalculatorUnitTests
 
             result.Should().Be(expectedResult);
         }
+        
+        [Theory]
+        [InlineData("multiply 3", "*3")]
+        [InlineData("multiply 27", "*27")]
+        public void ReturnMultiplyAndNumberAsCorrectSymbolAndNumberString(string input, string expectedResult)
+        {
+            var parser = new FileParser();
+
+            var result = parser.Parse(input);
+
+            result.Should().Be(expectedResult);
+        }
     }
 }

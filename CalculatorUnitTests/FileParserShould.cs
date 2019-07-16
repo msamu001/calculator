@@ -49,5 +49,18 @@ namespace CalculatorUnitTests
 
             result.Should().Be(expectedResult);
         }
+        
+        [Theory]
+        [InlineData("Add    1", "+1")]
+        [InlineData("   Add  2", "+2")]
+        [InlineData("   Add  2 \n    apply  3", "3+2")]
+        public void HandleBlankSpace(string input, string expectedResult)
+        {
+            var parser = new FileParser();
+
+            var result = parser.Parse(input);
+
+            result.Should().Be(expectedResult);
+        }
     }
 }

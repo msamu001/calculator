@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace Calculator
 {
@@ -20,21 +21,21 @@ namespace Calculator
 
             foreach (var line in input.Split("\n"))
             {
-                var symbol = line.Split(" ")[0].ToLower();
-                var number = line.Split(" ")[1];
-            
-                if (_SymbolDictionary.ContainsKey(symbol))
+                var splitInput = Regex.Split(line, @"\s+").Where(s => s != string.Empty).ToArray();
+                var symbol = splitInput[0].ToLower();
+                var number = splitInput[1];
+
+                if (!_SymbolDictionary.ContainsKey(symbol)) continue;
+                
+                var symbolValue = _SymbolDictionary[symbol];
+                if (string.IsNullOrEmpty(symbolValue))
                 {
-                    var symbolValue = _SymbolDictionary[symbol];
-                    if (string.IsNullOrEmpty(symbolValue))
-                    {
-                        output = output.Insert(0, number);
-                    }
-                    else
-                    {
-                        output += symbolValue;
-                        output += number;
-                    }
+                    output = output.Insert(0, number);
+                }
+                else
+                {
+                    output += symbolValue;
+                    output += number;
                 }
             }
             

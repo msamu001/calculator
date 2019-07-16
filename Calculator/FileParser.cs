@@ -6,6 +6,12 @@ namespace Calculator
         {
             var output = "";
 
+            if (input.Contains("add"))
+            {
+                output += "+";
+                output += input.Split(" ")[1];
+            }
+                
             if (input.Contains("apply"))
                 output += input.Split(" ")[1];
 

@@ -18,5 +18,16 @@ namespace CalculatorUnitTests
             
             result.Should().Be(expectedResult);
         }
+
+        [Fact]
+        public void ReturnAddNumberAsCorrectSymbolAndNumberString()
+        {
+            var input = "add 2";
+            var parser = new FileParser();
+
+            var result = parser.Parse(input);
+
+            result.Should().Be("+2");
+        }
     }
 }

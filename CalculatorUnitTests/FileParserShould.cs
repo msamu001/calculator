@@ -24,15 +24,17 @@ namespace CalculatorUnitTests
             result.Should().Be(expectedResult);
         }
 
-        [Fact]
-        public void ReturnCorrectSymbolAndNumberForMultipleLinesOfInput()
+        [Theory]
+        [InlineData("add 2\napply 3", "3+2")]
+        [InlineData("add 2\nmultiply 4\napply 3", "3+2*4")]
+        [InlineData("subtract 5\ndivide 3\nadd 4\napply 1", "1-5/3+4")]
+        public void ReturnCorrectSymbolAndNumberForMultipleLinesOfInput(string input, string expectedResult)
         {
-            string input = "add 2\napply 3";
             var parser = new FileParser();
 
             var result = parser.Parse(input);
 
-            result.Should().Be("3+2");
+            result.Should().Be(expectedResult);
         }
     }
 }

@@ -36,5 +36,18 @@ namespace CalculatorUnitTests
 
             result.Should().Be(expectedResult);
         }
+
+        [Theory]
+        [InlineData("Add 1", "+1")]
+        [InlineData("AdD 2", "+2")]
+        [InlineData("adD 3", "+3")]
+        public void NotBeCaseSensitive(string input, string expectedResult)
+        {
+            var parser = new FileParser();
+
+            var result = parser.Parse(input);
+
+            result.Should().Be(expectedResult);
+        }
     }
 }

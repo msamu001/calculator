@@ -20,7 +20,7 @@ namespace Calculator
 
             foreach (var line in input.Split("\n"))
             {
-                var symbol = line.Split(" ")[0];
+                var symbol = line.Split(" ")[0].ToLower();
                 var number = line.Split(" ")[1];
             
                 if (_SymbolDictionary.ContainsKey(symbol))

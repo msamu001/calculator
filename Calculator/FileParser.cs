@@ -18,13 +18,24 @@ namespace Calculator
         {
             var output = "";
 
-            var symbol = input.Split(" ")[0];
-            var number = input.Split(" ")[1];
-            
-            if (_SymbolDictionary.ContainsKey(symbol))
+            foreach (var line in input.Split("\n"))
             {
-                output += _SymbolDictionary[symbol];
-                output += number;
+                var symbol = line.Split(" ")[0];
+                var number = line.Split(" ")[1];
+            
+                if (_SymbolDictionary.ContainsKey(symbol))
+                {
+                    var symbolValue = _SymbolDictionary[symbol];
+                    if (string.IsNullOrEmpty(symbolValue))
+                    {
+                        output = output.Insert(0, number);
+                    }
+                    else
+                    {
+                        output += symbolValue;
+                        output += number;
+                    }
+                }
             }
             
             return output;

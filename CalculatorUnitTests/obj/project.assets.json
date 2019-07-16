@@ -1712,6 +1712,16 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Calculator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/Calculator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Calculator.dll": {}
+        }
       }
     }
   },
@@ -5972,10 +5982,16 @@
         "xunit.runner.visualstudio.2.4.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Calculator/1.0.0": {
+      "type": "project",
+      "path": "../Calculator/Calculator.csproj",
+      "msbuildProject": "../Calculator/Calculator.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "Calculator >= 1.0.0",
       "FluentAssertions >= 5.7.0",
       "Microsoft.NET.Test.Sdk >= 15.9.0",
       "Microsoft.NETCore.App >= 2.2.0",
@@ -5990,11 +6006,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/marcellinosamuels/Documents/Git/Calculator/CalculatorUnitTests/CalculatorUnitTests.csproj",
+      "projectUniqueName": "/Users/marcellinosamuels/Documents/Git/calculator/CalculatorUnitTests/CalculatorUnitTests.csproj",
       "projectName": "CalculatorUnitTests",
-      "projectPath": "/Users/marcellinosamuels/Documents/Git/Calculator/CalculatorUnitTests/CalculatorUnitTests.csproj",
+      "projectPath": "/Users/marcellinosamuels/Documents/Git/calculator/CalculatorUnitTests/CalculatorUnitTests.csproj",
       "packagesPath": "/Users/marcellinosamuels/.nuget/packages/",
-      "outputPath": "/Users/marcellinosamuels/Documents/Git/Calculator/CalculatorUnitTests/obj/",
+      "outputPath": "/Users/marcellinosamuels/Documents/Git/calculator/CalculatorUnitTests/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -6011,7 +6027,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/marcellinosamuels/Documents/Git/calculator/Calculator/Calculator.csproj": {
+              "projectPath": "/Users/marcellinosamuels/Documents/Git/calculator/Calculator/Calculator.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

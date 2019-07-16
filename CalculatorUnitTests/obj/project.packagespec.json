@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/marcellinosamuels/Documents/Git/Calculator/CalculatorUnitTests/CalculatorUnitTests.csproj",
+    "projectUniqueName": "/Users/marcellinosamuels/Documents/Git/calculator/CalculatorUnitTests/CalculatorUnitTests.csproj",
     "projectName": "CalculatorUnitTests",
-    "projectPath": "/Users/marcellinosamuels/Documents/Git/Calculator/CalculatorUnitTests/CalculatorUnitTests.csproj",
-    "outputPath": "/Users/marcellinosamuels/Documents/Git/Calculator/CalculatorUnitTests/obj/",
+    "projectPath": "/Users/marcellinosamuels/Documents/Git/calculator/CalculatorUnitTests/CalculatorUnitTests.csproj",
+    "outputPath": "/Users/marcellinosamuels/Documents/Git/calculator/CalculatorUnitTests/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -14,7 +14,11 @@
     ],
     "frameworks": {
       "netcoreapp2.2": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/Users/marcellinosamuels/Documents/Git/calculator/Calculator/Calculator.csproj": {
+            "projectPath": "/Users/marcellinosamuels/Documents/Git/calculator/Calculator/Calculator.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

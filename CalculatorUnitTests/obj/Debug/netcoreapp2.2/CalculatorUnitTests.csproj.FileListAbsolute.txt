@@ -12,3 +12,6 @@
 /Users/marcellinosamuels/Documents/Git/Calculator/CalculatorUnitTests/obj/Debug/netcoreapp2.2/CalculatorUnitTests.AssemblyInfo.cs
 /Users/marcellinosamuels/Documents/Git/Calculator/CalculatorUnitTests/obj/Debug/netcoreapp2.2/CalculatorUnitTests.dll
 /Users/marcellinosamuels/Documents/Git/Calculator/CalculatorUnitTests/obj/Debug/netcoreapp2.2/CalculatorUnitTests.pdb
+/Users/marcellinosamuels/Documents/Git/calculator/CalculatorUnitTests/bin/Debug/netcoreapp2.2/Calculator.dll
+/Users/marcellinosamuels/Documents/Git/calculator/CalculatorUnitTests/bin/Debug/netcoreapp2.2/Calculator.pdb
+/Users/marcellinosamuels/Documents/Git/Calculator/CalculatorUnitTests/obj/Debug/netcoreapp2.2/CalculatorUnitTests.csproj.CopyComplete

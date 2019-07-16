@@ -1,0 +1,14 @@
+/Users/marcellinosamuels/Documents/Git/Calculator/CalculatorUnitTests/bin/Debug/netcoreapp2.2/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/marcellinosamuels/Documents/Git/Calculator/CalculatorUnitTests/bin/Debug/netcoreapp2.2/xunit.runner.reporters.netcoreapp10.dll
+/Users/marcellinosamuels/Documents/Git/Calculator/CalculatorUnitTests/bin/Debug/netcoreapp2.2/xunit.runner.utility.netcoreapp10.dll
+/Users/marcellinosamuels/Documents/Git/Calculator/CalculatorUnitTests/bin/Debug/netcoreapp2.2/CalculatorUnitTests.deps.json
+/Users/marcellinosamuels/Documents/Git/Calculator/CalculatorUnitTests/bin/Debug/netcoreapp2.2/CalculatorUnitTests.runtimeconfig.json
+/Users/marcellinosamuels/Documents/Git/Calculator/CalculatorUnitTests/bin/Debug/netcoreapp2.2/CalculatorUnitTests.runtimeconfig.dev.json
+/Users/marcellinosamuels/Documents/Git/Calculator/CalculatorUnitTests/bin/Debug/netcoreapp2.2/CalculatorUnitTests.dll
+/Users/marcellinosamuels/Documents/Git/Calculator/CalculatorUnitTests/bin/Debug/netcoreapp2.2/CalculatorUnitTests.pdb
+/Users/marcellinosamuels/Documents/Git/Calculator/CalculatorUnitTests/obj/Debug/netcoreapp2.2/CalculatorUnitTests.csprojAssemblyReference.cache
+/Users/marcellinosamuels/Documents/Git/Calculator/CalculatorUnitTests/obj/Debug/netcoreapp2.2/CalculatorUnitTests.csproj.CoreCompileInputs.cache
+/Users/marcellinosamuels/Documents/Git/Calculator/CalculatorUnitTests/obj/Debug/netcoreapp2.2/CalculatorUnitTests.AssemblyInfoInputs.cache
+/Users/marcellinosamuels/Documents/Git/Calculator/CalculatorUnitTests/obj/Debug/netcoreapp2.2/CalculatorUnitTests.AssemblyInfo.cs
+/Users/marcellinosamuels/Documents/Git/Calculator/CalculatorUnitTests/obj/Debug/netcoreapp2.2/CalculatorUnitTests.dll
+/Users/marcellinosamuels/Documents/Git/Calculator/CalculatorUnitTests/obj/Debug/netcoreapp2.2/CalculatorUnitTests.pdb

@@ -1,0 +1,11 @@
+/Users/marcellinosamuels/Documents/Git/Calculator/Calculator/bin/Debug/netcoreapp2.2/Calculator.deps.json
+/Users/marcellinosamuels/Documents/Git/Calculator/Calculator/bin/Debug/netcoreapp2.2/Calculator.runtimeconfig.json
+/Users/marcellinosamuels/Documents/Git/Calculator/Calculator/bin/Debug/netcoreapp2.2/Calculator.runtimeconfig.dev.json
+/Users/marcellinosamuels/Documents/Git/Calculator/Calculator/bin/Debug/netcoreapp2.2/Calculator.dll
+/Users/marcellinosamuels/Documents/Git/Calculator/Calculator/bin/Debug/netcoreapp2.2/Calculator.pdb
+/Users/marcellinosamuels/Documents/Git/Calculator/Calculator/obj/Debug/netcoreapp2.2/Calculator.csprojAssemblyReference.cache
+/Users/marcellinosamuels/Documents/Git/Calculator/Calculator/obj/Debug/netcoreapp2.2/Calculator.csproj.CoreCompileInputs.cache
+/Users/marcellinosamuels/Documents/Git/Calculator/Calculator/obj/Debug/netcoreapp2.2/Calculator.AssemblyInfoInputs.cache
+/Users/marcellinosamuels/Documents/Git/Calculator/Calculator/obj/Debug/netcoreapp2.2/Calculator.AssemblyInfo.cs
+/Users/marcellinosamuels/Documents/Git/Calculator/Calculator/obj/Debug/netcoreapp2.2/Calculator.dll
+/Users/marcellinosamuels/Documents/Git/Calculator/Calculator/obj/Debug/netcoreapp2.2/Calculator.pdb

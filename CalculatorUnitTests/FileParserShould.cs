@@ -6,15 +6,17 @@ namespace CalculatorUnitTests
 {
     public class FileParserShould
     {
-        [Fact]
-        public void ParserCanParseApply()
+        [Theory]
+        [InlineData("apply 3","3")]
+        [InlineData("apply 7","7")]
+        [InlineData("apply 10","10")]
+        public void ReturnApplyNumberAsAString(string input, string expectedResult)
         {
-            string input = "apply 3";
             var parser = new FileParser();
 
             var result = parser.Parse(input);
             
-            result.Should().Be("3");
+            result.Should().Be(expectedResult);
         }
     }
 }
